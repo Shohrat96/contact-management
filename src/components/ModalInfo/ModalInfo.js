@@ -4,7 +4,6 @@ import ModalInfoField from '../ModalInfoField/ModalInfoField';
 
 const ModalInfo=({modalProps, title, modalClose})=>{
     const {visible, contact}=modalProps;
-    console.log("contact: ",contact);
     const convertToFields={
       id:'Id',
       name: 'Name',
@@ -35,7 +34,6 @@ const ModalInfo=({modalProps, title, modalClose})=>{
               let fieldName=convertToFields[item];
               let value=contact[item];
               if (item==='keepUpdated'){
-                console.log("value: ",value);
                 value=value===true || value.toString().toLowerCase()==="yes"?'Yes':'No';
               }
               return (

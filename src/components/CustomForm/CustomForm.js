@@ -6,7 +6,6 @@ import {genders, positions} from '../../utils/constants';
 
 export const CustomForm=(props)=>{
     const {onFinish, onFinishFailed, formInitialValues}=props;
-    console.log("initials: ",formInitialValues);
     const layout = {
         labelCol: {
           span: 7,

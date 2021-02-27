@@ -24,7 +24,6 @@ const CreateContact = () => {
     };
     const onImportFromField=(dataArr)=>{
         let result=[];
-        console.log("data: ",dataArr);
         for (let i=1;i<dataArr.length-1;i++){
             let obj={};
             for (let j=0;j<dataArr[0].length;j++){
