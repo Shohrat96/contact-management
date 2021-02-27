@@ -1,0 +1,11 @@
+.fieldWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid rgba($color: green, $alpha: 0.5);
+    border-radius: 3px;
+    margin-bottom: 5px;
+    & .fieldName {
+        font-weight: bold;
+    }
+}

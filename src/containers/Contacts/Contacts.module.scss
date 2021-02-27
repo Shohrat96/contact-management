@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    & .sectionTitle{
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    & .extractToCSV{
+        position: absolute;
+        top: 4%;
+        right: 20%;
+        display: flex;
+        & .extractLabel{
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        & svg{
+            font-size: 25px;
+        }
+    }
+}
