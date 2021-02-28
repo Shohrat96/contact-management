@@ -2,4 +2,6 @@
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
-
+#root{
+  background-color: rgba(89, 202, 127, 0.5)
+}
